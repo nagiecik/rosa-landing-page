@@ -18,18 +18,6 @@ const ContainerButtonStores = () => {
           <ContainerFeatureHeader
             featureHeaderLight="Make Sport"
             featureHeaderBold="Rules Moves"
-            showPrimaryText
-            showSecondaryText
-            distributionVerticalAlignSelf="unset"
-            distributionVerticalGap="0.75rem"
-            texth1lightColor="#fff"
-            texth1lightFontSize="6rem"
-            texth1lightLineHeight="6rem"
-            texth1lightMargin="0"
-            texth1boldColor="#fff"
-            texth1boldFontSize="6rem"
-            texth1boldLineHeight="6rem"
-            texth1boldMargin="0"
           />
           <p className="m-0 relative leading-[2.5rem] inline-block w-[50rem]">
             Join the multitude of organizations that have placed their trust in

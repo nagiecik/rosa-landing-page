@@ -9,19 +9,6 @@ const Footer = () => {
         <FooterHeader
           footerHeaderTitle="Interested in working with us?"
           footerHeaderMail="hello@rosa.zone"
-          showHeaderTitle
-          showHeaderMail
-          distributionVerticalFlex="1"
-          distributionVerticalGap="1.5rem"
-          texth2lightColor="#fff"
-          texth2lightFontSize="5rem"
-          texth2lightLineHeight="6rem"
-          texth2lightMargin="0"
-          texth2boldColor="#fff"
-          texth2boldTextDecoration="underline"
-          texth2boldFontSize="5rem"
-          texth2boldLineHeight="6rem"
-          texth2boldMargin="0"
         />
         <img
           className="relative w-[11.94rem] h-[12.08rem] object-cover"

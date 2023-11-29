@@ -3,29 +3,11 @@ import ContainerPricingCard from "./ContainerPricingCard";
 
 const ContainerSectionPricing = () => {
   return (
-    <section className="bg-texts-textprimary w-[120rem] flex flex-col items-center justify-start pt-spacing-256 px-spacing-200 pb-spacing-128 box-border gap-[8rem] text-left text-[2.5rem] text-texts-textprimary font-text-regular-headline">
+    <section className="bg-texts-textprimary w-[120rem] flex flex-col items-center justify-start pt-spacing-256 px-spacing-200 pb-spacing-128 box-border gap-[8rem] text-left text-[1.25rem] text-texts-textaccentsubtle font-text-regular-headline">
       <ContainerHeader
         containerHeaderLight="Choose Your"
         containerHeaderBold="Plan"
         containerDescription="ROSA provides the tools to streamline rule management, create engaging content, and organize diverse sporting events with precision. Choose a plan that matches your organization's needs and make a lasting impression with a branded home screen, craft informative content effortlessly, and manage events seamlessly."
-        containerheaderZIndex="unset"
-        containerheaderWidth="95rem"
-        textsectionTitleh1Gap="1.5rem"
-        texth1lightColor="#181f4e"
-        texth1lightFontSize="6rem"
-        texth1lightLineHeight="6rem"
-        texth1lightMargin="0"
-        texth1boldColor="#181f4e"
-        texth1boldFontSize="6rem"
-        texth1boldLineHeight="6rem"
-        texth1boldMargin="0"
-        textpColor="#181f4e"
-        textpFontSize="1.5rem"
-        textpLineHeight="2.5rem"
-        textpMaxWidth="50rem"
-        textpMargin="0"
-        showSecondaryText
-        showPrimaryText
       />
       <div className="self-stretch flex flex-row items-start justify-start gap-[3rem]">
         <ContainerPricingCard
@@ -46,24 +28,6 @@ const ContainerSectionPricing = () => {
           pricingButtonIconLeftUrl="/iconarrowleft1.svg"
           pricingButtonText="Choose National"
           pricingButtonIconRightUrl="/iconarrowright1.svg"
-          propBackgroundColor="#fff"
-          propZIndex="1"
-          propColor="#181f4e"
-          propColor1="#7e84b5"
-          propColor2="#181f4e"
-          texth4Color="#7e84b5"
-          texth4Color1="#181f4e"
-          texth4Color2="#181f4e"
-          texth4Color3="#181f4e"
-          texth4Color4="#181f4e"
-          texth4Color5="#181f4e"
-          containerdivheaderColor="#181f4e"
-          propColor3="#7e84b5"
-          containerdivheaderColor1="#181f4e"
-          containerdivheaderColor2="#181f4e"
-          containerdivpricingBorder="2px solid #181f4e"
-          containerdivpricingBackgroundColor="transparent"
-          texth4FontWeight="bold"
           showIconLeft={false}
           showButtonText
           showIconRight={false}

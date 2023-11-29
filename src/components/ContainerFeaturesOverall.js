@@ -10,24 +10,6 @@ const ContainerFeaturesOverall = () => {
         containerHeaderLight="All Provided"
         containerHeaderBold="Features"
         containerDescription="Doing your best to get the message across globally, most often you work with PDF files and printouts. They are difficult to personalize and user-unfriendly. It would be nice to make tracking changes, giving feedback and browsing easier, and mobile-optimised."
-        containerheaderZIndex="unset"
-        containerheaderWidth="95rem"
-        textsectionTitleh1Gap="1.5rem"
-        texth1lightColor="#181f4e"
-        texth1lightFontSize="6rem"
-        texth1lightLineHeight="6rem"
-        texth1lightMargin="0"
-        texth1boldColor="#181f4e"
-        texth1boldFontSize="6rem"
-        texth1boldLineHeight="6rem"
-        texth1boldMargin="0"
-        textpColor="#181f4e"
-        textpFontSize="1.5rem"
-        textpLineHeight="2.5rem"
-        textpMaxWidth="50rem"
-        textpMargin="0"
-        showSecondaryText
-        showPrimaryText
       />
       <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[2rem]">
         <CardEnvironmentFeature
@@ -35,28 +17,6 @@ const ContainerFeaturesOverall = () => {
           cardNumberText="01"
           cardTitleText={`Q&A for your rules`}
           cardDescriptionText="get quick answers to competition rule queries"
-          showNumberText
-          showTitleText
-          showIcon
-          showDescriptionText
-          containerdivcardFeatureacPadding="1.5rem 1.5rem 2rem"
-          containerdivcardFeatureacGap="1rem"
-          containerdivcardFeatureacMinWidth="22.25rem"
-          imageiconPadding="0.5rem"
-          iconhouseWidth="3rem"
-          iconhouseHeight="3rem"
-          containerdivtextGap="0.75rem"
-          texth6FontSize="1.5rem"
-          texth6LineHeight="2.5rem"
-          texth6Margin="0"
-          texth6FontWeight="700"
-          texth6FontSize1="1.5rem"
-          texth6LineHeight1="2.5rem"
-          texth6Margin1="0"
-          texth6FontWeight1="700"
-          textpFontSize="1rem"
-          textpLineHeight="2rem"
-          textpMargin="0"
         />
         <CardFeatureHover
           cardFeatureNumberText="02"

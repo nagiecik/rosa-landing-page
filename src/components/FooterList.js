@@ -58,7 +58,7 @@ const FooterList = ({
     };
   }, [link1TextDecoration]);
 
-  const textlabel9Style = useMemo(() => {
+  const textlabel1Style = useMemo(() => {
     return {
       fontSize: textlabelFontSize,
       lineHeight: textlabelLineHeight,
@@ -71,7 +71,7 @@ const FooterList = ({
     };
   }, [link2TextDecoration]);
 
-  const textlabel10Style = useMemo(() => {
+  const textlabel2Style = useMemo(() => {
     return {
       fontSize: textlabelFontSize1,
       lineHeight: textlabelLineHeight1,
@@ -84,7 +84,7 @@ const FooterList = ({
     };
   }, [link3TextDecoration]);
 
-  const textlabel11Style = useMemo(() => {
+  const textlabel3Style = useMemo(() => {
     return {
       fontSize: textlabelFontSize2,
       lineHeight: textlabelLineHeight2,
@@ -97,7 +97,7 @@ const FooterList = ({
     };
   }, [link4TextDecoration]);
 
-  const textlabel12Style = useMemo(() => {
+  const textlabel4Style = useMemo(() => {
     return {
       fontSize: textlabelFontSize3,
       lineHeight: textlabelLineHeight3,
@@ -110,7 +110,7 @@ const FooterList = ({
     };
   }, [link5TextDecoration]);
 
-  const textlabel13Style = useMemo(() => {
+  const textlabel5Style = useMemo(() => {
     return {
       fontSize: textlabelFontSize4,
       lineHeight: textlabelLineHeight4,
@@ -135,7 +135,7 @@ const FooterList = ({
         >
           <div
             className="flex-1 relative leading-[32px] font-semibold"
-            style={textlabel9Style}
+            style={textlabel1Style}
           >
             {footerListElement1}
           </div>
@@ -148,7 +148,7 @@ const FooterList = ({
         >
           <div
             className="flex-1 relative leading-[32px] font-semibold"
-            style={textlabel10Style}
+            style={textlabel2Style}
           >
             {footerListElement2}
           </div>
@@ -161,7 +161,7 @@ const FooterList = ({
         >
           <div
             className="flex-1 relative leading-[32px] font-semibold"
-            style={textlabel11Style}
+            style={textlabel3Style}
           >
             USE CASES
           </div>
@@ -174,7 +174,7 @@ const FooterList = ({
         >
           <div
             className="flex-1 relative leading-[32px] font-semibold"
-            style={textlabel12Style}
+            style={textlabel4Style}
           >
             TESTIMONIALS
           </div>
@@ -187,7 +187,7 @@ const FooterList = ({
         >
           <div
             className="flex-1 relative leading-[32px] font-semibold"
-            style={textlabel13Style}
+            style={textlabel5Style}
           >
             PRICING
           </div>
